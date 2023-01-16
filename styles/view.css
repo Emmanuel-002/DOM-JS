@@ -1,0 +1,21 @@
+article.view_block {
+  width: 100%;
+  margin: 2rem auto;
+}
+article.view_block > div {
+  margin: 1rem;
+  padding: 1rem;
+  border: 5px solid rgb(4, 54, 99);
+  border-radius: 5px;
+}
+article.view_block > div > h2 {
+  text-align: center;
+}
+article.view_block > div > ul {
+  list-style: none;
+}
+article.view_block > div > ul li.question {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

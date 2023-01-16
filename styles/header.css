@@ -1,0 +1,38 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: rgb(4, 54, 99);
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(189, 245, 77);
+}
+header div.logo {
+  font-weight: bold;
+}
+header > div {
+  margin: 0.2rem 1rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+header ul li {
+  transition: all 200ms ease 0s;
+}
+header ul li:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+header ul li.active {
+  color: yellow;
+  text-decoration: underline;
+}
